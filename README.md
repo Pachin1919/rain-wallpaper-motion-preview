@@ -1,17 +1,24 @@
-# Rain Wallpaper — Motion Preview
+# Rainfield
 
-A painted rain landscape made subtly alive for the PACHIN website. The scene holds still enough to read as a painting, while rain and water gradually change around it.
+[Live demo](https://pachin1919.github.io/rain-wallpaper-motion-preview/)
 
-[**Open the live preview**](https://pachin1919.github.io/rain-wallpaper-motion-preview/)
+![Desktop preview](assets/preview.png)
 
-![First-screen preview of the rainy lake](assets/preview.png)
+A complete standalone bilingual visual frontend, expanded from the original demo with Lovable and adapted for static GitHub Pages hosting.
 
-This is an independent art-direction study, not the production website. Use **Pause motion** or your system's reduced-motion setting to stop the loop.
+## Pages
 
-To run locally, serve this directory with a static server and open `index.html`, for example in PowerShell:
+- /
+- /stays
+- /stays/lake-room
+- /field-notes
 
-```powershell
-py -m http.server 4332 --bind 127.0.0.1
-```
+## Local development
 
-The painting is a project-specific visual asset and is not offered for reuse. Barlow Condensed and IBM Plex Sans license texts are included in `assets/`; GSAP's license notice is included in `vendor/gsap.min.js`.
+Run npm.cmd install, then npm.cmd run dev.
+
+## Build
+
+Run npm.cmd run build.
+
+[Deployment notes](docs/GITHUB-PAGES.md). Original artwork remains project-specific and is not licensed for general reuse; font OFL notices are included. Repository history preserves the earlier standalone demo.
