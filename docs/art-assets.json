@@ -1,0 +1,48 @@
+{
+  "assets": [
+    {
+      "path": "src/assets/tea-window.jpg",
+      "size": 127598,
+      "sha256": "b3cd2b895a234ba133c1bd5d6fc4509ec5e27b63b3c18b8d9b8f598138308d0c",
+      "chunk_paths": [
+        ".export/art-round2/chunks/001-001.txt",
+        ".export/art-round2/chunks/001-002.txt",
+        ".export/art-round2/chunks/001-003.txt",
+        ".export/art-round2/chunks/001-004.txt",
+        ".export/art-round2/chunks/001-005.txt",
+        ".export/art-round2/chunks/001-006.txt"
+      ]
+    },
+    {
+      "path": "src/assets/reed-path.jpg",
+      "size": 264985,
+      "sha256": "8c7afa9286ee479bbe4e66a443ca378866924f8157d2c9ae5d333269d6e04042",
+      "chunk_paths": [
+        ".export/art-round2/chunks/002-001.txt",
+        ".export/art-round2/chunks/002-002.txt",
+        ".export/art-round2/chunks/002-003.txt",
+        ".export/art-round2/chunks/002-004.txt",
+        ".export/art-round2/chunks/002-005.txt",
+        ".export/art-round2/chunks/002-006.txt",
+        ".export/art-round2/chunks/002-007.txt",
+        ".export/art-round2/chunks/002-008.txt",
+        ".export/art-round2/chunks/002-009.txt",
+        ".export/art-round2/chunks/002-010.txt",
+        ".export/art-round2/chunks/002-011.txt",
+        ".export/art-round2/chunks/002-012.txt"
+      ]
+    },
+    {
+      "path": "src/assets/evening-desk.jpg",
+      "size": 111338,
+      "sha256": "71627204609e81432ea2f41353557049b5d0a4770d09d120e9093045f16b728a",
+      "chunk_paths": [
+        ".export/art-round2/chunks/003-001.txt",
+        ".export/art-round2/chunks/003-002.txt",
+        ".export/art-round2/chunks/003-003.txt",
+        ".export/art-round2/chunks/003-004.txt",
+        ".export/art-round2/chunks/003-005.txt"
+      ]
+    }
+  ]
+}
