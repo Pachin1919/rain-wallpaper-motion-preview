@@ -14,6 +14,6 @@ export function ConceptScene({ scene, className = '', credit = false }: { scene:
   const image = scenes[scene];
   return <figure className={`concept-scene ${className}`}>
     <img src={image.src} width={image.width} height={image.height} loading="lazy" decoding="async" alt={t(image.en, image.zh)} />
-    {credit && <figcaption>{t('Rainfield scene study · AI-generated concept', '雨野场景习作 · AI 生成构想')}</figcaption>}
+    {credit && <figcaption>{t('The Rainfield scene study · AI-generated concept', '雨落田原场景习作 · AI 生成构想')}</figcaption>}
   </figure>;
 }

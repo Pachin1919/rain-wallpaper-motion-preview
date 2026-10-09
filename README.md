@@ -1,6 +1,6 @@
-# Rainfield
+# The Rainfield
 
-[Live demo](https://pachin1919.github.io/rain-wallpaper-motion-preview/)
+[Live demo](https://pachin1919.github.io/TheRainfield-motion-preview/)
 
 ![Desktop preview](assets/preview.png)
 
