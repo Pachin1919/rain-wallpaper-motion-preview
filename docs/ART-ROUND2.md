@@ -1,6 +1,6 @@
 # Rainfield — Art round 2
 
-Completed 2026-10-07, in this Lovable project only. No deployment, GitHub connection, package installation, package/lock version change, new route, backend or effect system.
+Completed 2026-10-07, in the source project only. No deployment, GitHub connection, package installation, package/lock version change, new route, backend or effect system.
 
 ## Source authority and preservation
 Original rainy-lake artwork and motion source: `7b909e63eae00390626f23747fd1c8ca7a6bda05`. Owner's downstream published reference: https://pachin1919.github.io/rain-wallpaper-motion-preview/ at `99dbe8eb90f92714a996398ca3e4f97083944b37`. The reference identifies downstream authority; its published adapter was not modified or tested.
@@ -14,7 +14,7 @@ Original first screen, hero painting, water mask/UV alignment, glass drops, fine
 | `src/assets/reed-path.jpg` | 1376 × 768 | 264,985 |
 | `src/assets/evening-desk.jpg` | 1264 × 848 | 111,338 |
 
-All are new AI-generated concept scenes made using Lovable's native image-edit/merge capability on 2026-10-07. Reference-guided generation, not retouched original photos, crops of the hero, stock imagery, SVG painting, screenshots or CDN pointers. No people, identifiable place, branding or booking claims.
+All are new AI-generated concept scenes made using the source image-generation workflow on 2026-10-07. Reference-guided generation, not retouched original photos, crops of the hero, stock imagery, SVG painting, screenshots or CDN pointers. No people, identifiable place, branding or booking claims.
 
 - Tea window: Lake Room interior + original painting as palette/material references. Prompt requested an intimate vertical cup, washed linen, rain-streaked oak window, lake and reeds. Generation reference `b106b93c-fdab-45c9-9e5e-7f4b2fbb85c0`.
 - Reed path: original painting + Reed Room as references. Prompt requested a new misty timber boardwalk scene, wet planks, restrained light and no real location. Generation reference `6b529feb-23b0-466c-9b49-d393f36b422f`.
@@ -66,4 +66,4 @@ Limits: Chromium only, touch emulation rather than a physical device; no Safari/
 ## Text-safe export
 Manifest: `.export/art-round2/manifest.json`. It lists only the **3 new visual artwork files + 18 new visual evidence files**. Original painting, old interiors, fonts, favicon, documentation and existing room export are excluded. The manifest stores exact path, byte size, SHA-256 and ordered chunk paths. Each UTF-8 chunk under `.export/art-round2/chunks/` contains only ASCII base64, no newline, at most 32,000 characters and a length divisible by four. Decode in manifest order; local strict base64 decode matched every complete binary byte and SHA-256. Evidence entries are included to make repository screenshots text-retrievable too, not to count them as generated artwork. Export stays outside public and is never imported or served by the app.
 
-Observed saved implementation commit before this documentation/export save: `8ae5e944921a3ec1377d6aa8e7a407c58f927811`. Lovable saves subsequent evidence/document/export revisions automatically; this is an observed commit, not a claim of the final future auto-save SHA.
+Observed saved implementation commit before this documentation/export save: `8ae5e944921a3ec1377d6aa8e7a407c58f927811`. The source editor saved subsequent evidence/document/export revisions automatically; this is an observed commit, not a claim of the final future auto-save SHA.

@@ -1,6 +1,6 @@
 # GitHub Pages delivery
 
-Source Lovable revision: bc8b0ee7654881f07a1135548df4a4b137675a40.
+Source snapshot: bc8b0ee7654881f07a1135548df4a4b137675a40.
 
 The reviewed React/TanStack route content and interactions are retained. Hosting is adapted to a static Vite browser app; the server wrapper and platform error-reporting transport are excluded. Repository base path is /TheRainfield-motion-preview/. Every known detail route gets a physical index.html for direct entry and refresh.
 
